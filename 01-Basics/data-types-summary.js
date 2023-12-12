@@ -33,3 +33,35 @@ const myFunction = function(){
 }
 
 console.log(typeof myObj)
+
+
+
+
+
+
+
+
+// --------------------------------------------------------------------------------------------------------------
+
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let mygamingName = "imasws07";
+let anotherName = mygamingName;
+
+anotherName = "sharmashish07"
+
+console.log(mygamingName);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "ashish@one.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "sharma@one.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
